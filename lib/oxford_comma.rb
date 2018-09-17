@@ -5,6 +5,6 @@ def oxford_comma(array)
   array.join(" and ")
 else
   joiner = array.join(" and ")
-  array.insert(array[-1], joiner)
+  array.insert(-1, joiner)
   end
 end
